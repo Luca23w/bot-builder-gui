@@ -1,0 +1,109 @@
+/* Dark Mode Styling für eine moderne, elegante Optik */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container für zentrierten Inhalt */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    text-align: center;
+}
+
+/* Überschriften */
+h1, h2 {
+    text-align: center;
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+/* Formular */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+/* Input-Felder */
+input, select {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #00aaff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Button */
+button {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+/* Fehlermeldungen */
+p.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Image (Chart) */
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    margin-top: 20px;
+}
+
+/* PDF-Download-Link */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0077cc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background-color: #005599;
+}
+
+/* Responsive Design für kleinere Bildschirme */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    input, select, button {
+        width: 100%;
+    }
+}
